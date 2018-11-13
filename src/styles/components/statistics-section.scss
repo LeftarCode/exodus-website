@@ -1,0 +1,20 @@
+@import './utilities';
+
+.statistics-section {
+    @include section;
+    @include background-parallax;
+    background-image: url("../../imgs/statisticsbg.png");
+    height: 600px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+
+    .title {
+        color: $color-light;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+}

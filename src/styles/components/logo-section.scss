@@ -1,0 +1,17 @@
+@import './utilities';
+
+img.logo {
+    height: 60%;
+}
+
+.logo-section {
+    @include section;
+    @include background-parallax;
+    background-image: url("../../imgs/logobg.png");
+    height: 80vh;
+    text-align: center;
+
+    .button-wrapper {
+        margin-top: 50px;
+    }
+}

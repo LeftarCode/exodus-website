@@ -1,0 +1,19 @@
+
+.recommendation {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    .content {
+        font-weight: 300;
+        p.text {  
+            font-style: italic;
+        }
+
+        .author {
+
+            .name {
+                font-weight: 600;
+                font-style: italic;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import './utilities';
+
+.services-section {
+    @include section;
+    @include background-parallax;
+    background-image: url("../../imgs/servicesbg.png");
+    height: 600px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+
+    .title {
+        color: $color-light;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .button-wrapper {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    
+}

@@ -1,0 +1,37 @@
+@import './utilities';
+
+.contact-section {
+    @include section;
+    @include background-parallax;
+    background-image: url("../../imgs/contactbg.png");
+    height: 200px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    color: $color-light;
+    text-align: center;
+    font-size: 24px;
+
+    .fas {
+        color: $color-accent;
+    }
+
+    .button-wrapper {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .embed-responsive {
+        text-align: center;
+        width: 70%;
+    }
+
+    .title {
+        color: $color-light;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+}

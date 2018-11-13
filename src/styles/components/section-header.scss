@@ -1,0 +1,19 @@
+@import './utilities';
+
+.section-header {
+    margin-bottom: 20px;
+    text-align: center;
+    h4 {
+        font-weight: 100;
+
+        span.accent {
+            color: $color-accent;
+        }
+    }
+
+    h1.header {
+        color: $color-dark;
+        margin-top: 30px;
+        font-weight: 800;
+    }
+}

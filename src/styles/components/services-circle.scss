@@ -1,0 +1,42 @@
+@import './utilities';
+
+.circle-lg {
+    width: 300px;
+    height: 300px;
+}
+
+.circle-col {
+    max-width: 33%;
+}
+
+.circle-outter-wrapper {
+    display: table;
+    color: $color-light;
+    text-align: center;
+    height: 100%;
+
+    .circle-inner-wrapper {
+        vertical-align: middle;
+        display: table-cell;
+        
+        .circle {
+            opacity: 0.7;
+            margin: auto;
+            display: table;
+            border-radius: 200px;
+            background: $color-accent;
+
+            img {
+                opacity: 1;
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+
+        h3 {
+            margin-top: 10px;
+            font-size: 50px;
+            font-weight: 300;
+        }
+    }
+}

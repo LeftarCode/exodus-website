@@ -1,0 +1,72 @@
+@import 'utilities';
+
+.team-section {
+    @include section;
+
+    @media(max-width: 1290px) {
+        .employee {
+            height: 200px;
+        }
+    }
+
+    .button-wrapper {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .col {
+        padding: 0;
+        width: 20%;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+
+        .content {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            p {
+                text-align: center;
+                color: $color-light;
+                display: block;
+            }
+        }
+
+        
+
+        .name {
+            font-weight: 300;
+            font-size: 24px;
+        }
+    }
+
+    .accent {
+        color: $color-accent;
+    }
+
+    h4 {
+        font-weight: 100;
+
+        span.accent {
+            color: $color-accent;
+        }
+    }
+
+    h1.about-us {
+        margin-top: 30px;
+        font-weight: 800;
+    }
+}

@@ -1,0 +1,42 @@
+@import './utilities';
+
+.project {
+    margin-top: 25px;
+    height: 300px;
+    color: $color-dark;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    padding: 0;
+    overflow: hidden;
+
+    .content {
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+
+        .text {
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+            p {
+                text-overflow: ellipsis;
+                font-weight: 300;
+                font-size: 10pt;
+                white-space: normal !important;
+            }
+        }
+    }
+
+    .image{
+        height: 300px;
+    }
+
+    .image-left {
+        float: left;
+    }
+
+    .image-right {
+        float: right;
+    }
+}

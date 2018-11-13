@@ -1,0 +1,45 @@
+@import './utilities';
+
+.circle-sm {
+    opacity: 0.7;
+    height: 200px;
+    width: 200px;
+}
+
+.circle-lg {
+    width: 300px;
+    height: 300px;
+
+    h1 {
+        font-size: 72px;
+    }
+}
+
+.circle-outter-wrapper {
+    display: table;
+    color: $color-light;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+
+    .circle-inner-wrapper {
+        vertical-align: middle;
+        display: table-cell;
+        
+        .circle {
+            margin: auto;
+            display: table;
+            border-radius: 200px;
+            background: $color-accent;
+
+            h1 {
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+
+        h3 {
+            margin-top: 10px;
+        }
+    }
+}

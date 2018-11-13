@@ -1,0 +1,21 @@
+@import 'utilities';
+
+.button-wrapper {
+    width: 100%;
+}
+
+.ex-btn {
+    color: $color-light;
+    background: $color-accent;
+    font-weight: 500;
+    padding: 15px 23px;
+    border: 0;
+    border-radius: 0;
+    @include transition(background 0.1s linear)
+}
+
+.ex-btn:hover {
+    text-decoration: none;
+    color: $color-light;
+    background: $color-dark;
+}

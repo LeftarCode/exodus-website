@@ -1,0 +1,29 @@
+@import './utilities';
+
+.youtube-section {
+    @include section;
+    @include background-parallax;
+    background-image: url("../../imgs/youtubebg.png");
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+
+    .button-wrapper {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .embed-responsive {
+        text-align: center;
+        width: 70%;
+    }
+
+    .title {
+        color: $color-light;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+}

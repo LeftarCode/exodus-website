@@ -1,0 +1,14 @@
+@import './utilities';
+
+.recommendations-section {
+    background: $color-accent;
+    background-image: url("../../imgs/quote.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 25px 25px;
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    
+}
